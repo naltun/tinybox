@@ -1,5 +1,10 @@
-import { Application, Context, Router, Status } from "https://deno.land/x/oak/mod.ts";
-import { welcomeMsg } from "./server/index.ts";
+import {
+  Application,
+  Context,
+  Router,
+  Status,
+} from "https://deno.land/x/oak/mod.ts";
+import { welcomeMsg } from "./routes/index.ts";
 
 const port = 8000;
 const app = new Application();
