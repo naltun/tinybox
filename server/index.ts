@@ -11,13 +11,13 @@ export const welcomeMsg = `
 |             GET /help                      |
 |                                            |
 |   to sign up for an account, please visit: |
-|            GET /createuser                 |
+|             GET /createuser                |
 |                                            |
 |                                            |
-|       source code available at:            |
-|     ${config.projectUrl}      |
+|          source code available at:         |
+|      ${config.projectUrl}     |
 |                                            |
 |              version ${config.version}               |
-+------------------------------------------+
++--------------------------------------------+
 
 `;
